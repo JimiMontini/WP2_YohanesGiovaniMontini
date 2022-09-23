@@ -11,3 +11,4 @@ class contoh1 extends CI_Controller
         aplikasinya sudah di hapus";
     }
 }
+
