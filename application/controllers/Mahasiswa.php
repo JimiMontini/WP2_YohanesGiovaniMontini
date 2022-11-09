@@ -7,7 +7,7 @@ class Mahasiswa extends CI_Controller
  }
  public function cetak()
  {
-    {
+   
      $data = [
      'nama' => $this->input->post('nama'),
      'nis' => $this->input->post('nis'),
@@ -21,4 +21,5 @@ class Mahasiswa extends CI_Controller
      $this->load->view('view-data-mahasiswa', $data);
      }
      }
-   }
+    
+    

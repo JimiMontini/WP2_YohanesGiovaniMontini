@@ -73,12 +73,12 @@ method="post">
                     <td>
                         <select name="agama" id="agama">
                             <option value="">Pilih agama</option>
-                            <option value="1">Islam</option>
-                            <option value="2">Khatolik</option>
-                            <option value="3">Budha</option>
-                            <option value="4">Hindu</option>
-                            <option value="5">Khonghucu</option>
-                            <option value="6">Protestan</
+                            <option value="Islam">Islam</option>
+                            <option value="Khatolik">Khatolik</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Khonghucu">Khonghucu</option>
+                            <option value="Protestan">Protestan</
                         </select>
                     </td>
                 </tr>
