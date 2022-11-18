@@ -57,7 +57,7 @@ class Autentifikasi extends CI_Controller
                         redirect('user');
                     }
                 } else {
-                    $this->session->set_flashdata('pesan', '<div class="alert alert-danger alert-message" role="alert">Password salah!!/div>');
+                    $this->session->set_flashdata('pesan', '<div class="alert alert-danger alert-message" role="alert">Password salah!!</div>');
                     redirect('autentifikasi');
                 }
             } else {
